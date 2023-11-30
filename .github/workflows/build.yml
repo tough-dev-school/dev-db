@@ -63,3 +63,5 @@ jobs:
 
           cache-from: type=gha
           cache-to: type=gha,mode=max
+      - name: Notify uptimerobot.com
+        run: curl https://heartbeat.uptimerobot.com/m795803738-84958ca7ad81bdf43f43a61ace74450589f66282
