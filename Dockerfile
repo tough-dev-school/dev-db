@@ -1,4 +1,4 @@
-FROM postgres:15.13-alpine
+FROM postgres:17.5-alpine
 
 ADD db.sql.gz /docker-entrypoint-initdb.d/
 ADD postgres.conf /etc
